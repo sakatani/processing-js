@@ -14,9 +14,6 @@ import java.io.InputStream;
 import java.io.OutputStream; 
 import java.io.IOException; 
 
-public class DNA_drawer extends PApplet {
-
-
 
 ControlP5 cp5;
 
@@ -347,12 +344,4 @@ public void Draw_DNA(){
  endShape();
  popMatrix();  
 }
-  static public void main(String[] passedArgs) {
-    String[] appletArgs = new String[] { "DNA_drawer" };
-    if (passedArgs != null) {
-      PApplet.main(concat(appletArgs, passedArgs));
-    } else {
-      PApplet.main(appletArgs);
-    }
-  }
-}
+
